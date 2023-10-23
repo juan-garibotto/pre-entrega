@@ -13,15 +13,34 @@
             font-size: 20px;
             padding: 3px;}
 
-.nav-link {color: white;}            
+.nav-link {color: white;} 
+
+
+a:active {box-sizing: border-box;
+          border-radius: 20px;
+          padding: 10px;
+          background-color: rgb(245, 86, 86);
+        }
+
+.nav-link:hover { font-size: 120%;
+          font-weight: bold;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          }
+.fichas-tecnicas:hover {font-size: 150%;
+                        font-weight: 600;
+                        text-decoration:underline;}
+
+
+.productos:hover {font-size: 300%;}          
             
 body main { list-style-type: none;
-            margin-left: 1px;
-            margin-right: 1px;
+            
             background-color: black;
             }
 
 .grid-main {display: grid;
+            grid-template-columns: 1fr 1fr;
             grid-template-areas:
                                  "bodega  ficha"
                                  "bodega  ficha";
@@ -71,7 +90,7 @@ body main div h2 { font-family:  'Jost', sans-serif;
 footer { background-color: red;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     align-items:center;
     padding: 16px; }
@@ -123,17 +142,25 @@ footer { background-color: red;
 
 /* PRODUCTOS */
 
+.product {background: linear-gradient(to bottom, rgb(245, 109, 109),white);
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;}
+
+main ol {list-style-type: none;}
+
 .cajitas-prod1 { background-image: url(/img/vinos-luigi.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
     box-sizing: border-box;
-    width: 100%;
+    width: 100vh;
     border: solid 1px;
     padding: 45px;
-    margin: 1px}
+    margin-bottom: 1px; }
 
-.cajitas-prod2 { background-image: url(/img/champa-salentein.jpg);
+.cajitas-prod2 { background-image: url(/img/champasalentein.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -141,9 +168,9 @@ footer { background-color: red;
     width: 100%;
     border: solid 1px;
     padding: 45px;
-    margin: 1px} 
+    margin: 1px;} 
 
-.cajitas-prod3 { background-image: url(/img/aperitivos.jpg);
+.cajitas-prod3 { background-image: url(/img/aperitivos.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -151,9 +178,9 @@ footer { background-color: red;
     width: 100%;
     border: solid 1px;
     padding: 45px;
-    margin: 1px}  
+    margin: 1px;}  
     
-.cajitas-prod4 { background-image: url(/img/bebidas-espirituosas.jpg);
+.cajitas-prod4 { background-image: url(/img/espirituosa.png);
     background-position: right;
     background-size: contain;
     background-repeat: no-repeat;
@@ -161,11 +188,11 @@ footer { background-color: red;
     width: 100%;
     border: solid 1px;
     padding: 45px;
-    margin: 1px}      
+    margin: 1px;}      
 
 .productos { text-decoration: none;
              color: black;
-            font-size: 50px;}    
+            font-size: 40px;}    
 
 /* CONTACTO */
 
@@ -191,4 +218,32 @@ footer { background-color: red;
                   
 .boton {margin-bottom: 15px;}            
 
+/* VINOS */
+
+.container { display: flex;
+            max-width: 1100px;
+           width: 100%;
+            border: none;}
+
+            
+
+.row { display: flex;
+       width: 100%;
+       margin:8px;
+       border: 1px solid black;
+       background: rgb(255, 255, 255);
+       overflow: hidden;}           
+
                
+@media screen and (max-width: 844px ) {
+
+     .grid-main { height: 100%; 
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;} 
+
+    footer { width: 100%; 
+            display: flex;
+            flex-direction: row;
+            justify-content: center; }
+    }       
