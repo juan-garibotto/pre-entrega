@@ -238,7 +238,7 @@ main ol {list-style-type: none;}
        overflow: hidden;}           
 
                
-       @media screen and (max-width: 844px ) {
+@media screen and (max-width: 844px ) {
 
         .grid-main { height: 100%; 
                     display: flex;
