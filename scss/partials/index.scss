@@ -13,35 +13,13 @@
 a:active {box-sizing: border-box;
           border-radius: 20px;
           padding: 10px;
-          background-color: rgb(245, 86, 86);
+          background-color: rgb(245, 86, 86);}
 
-          .nav-link:hover { font-size: 120%;
-            font-weight: bold;
-            padding-top: 8px;
-            padding-bottom: 8px;
-            }
-        }
+a:hover  {transform: scale(3);}
 
 
-.fichas-tecnicas:hover {font-size: 150%;
-                        font-weight: 600;
-                        text-decoration:underline;}
 
 
-.productos:hover {font-size: 300%;}          
-            
-body main { list-style-type: none;
-            
-            background-color: black;
-
-            .grid-main {display: grid;
-                grid-template-columns: 1fr 1fr;
-                grid-template-areas:
-                                     "bodega  ficha"
-                                     "bodega  ficha";
-                column-gap: 2px; }
-
-            }
 
 /* BODEGAS */               
           
