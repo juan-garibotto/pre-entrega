@@ -1,0 +1,68 @@
+/* PRODUCTOS */
+.product {
+  background: linear-gradient(to bottom, rgb(245, 109, 109), white);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main ol {
+  list-style-type: none;
+}
+
+.cajitas-prod1 {
+  background-image: url(/img/vinos-luigi.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 100vh;
+  border: solid 1px;
+  padding: 45px;
+  margin-bottom: 1px;
+}
+
+.cajitas-prod2 {
+  background-image: url(/img/champasalentein.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 100%;
+  border: solid 1px;
+  padding: 45px;
+  margin: 1px;
+}
+
+.cajitas-prod3 {
+  background-image: url(/img/aperitivos.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 100%;
+  border: solid 1px;
+  padding: 45px;
+  margin: 1px;
+}
+
+.cajitas-prod4 {
+  background-image: url(/img/espirituosa.png);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  width: 100%;
+  border: solid 1px;
+  padding: 45px;
+  margin: 1px;
+}
+
+.productos {
+  text-decoration: none;
+  color: black;
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=productos.css.map */

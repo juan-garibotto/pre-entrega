@@ -25,87 +25,11 @@ a:active {
   box-sizing: border-box;
   border-radius: 20px;
   padding: 10px;
-  background-color: rgb(245, 86, 86);
-}
-a:active .nav-link:hover {
-  font-size: 120%;
-  font-weight: bold;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  background-color: #f8a6a6;
 }
 
-.fichas-tecnicas:hover {
-  font-size: 150%;
-  font-weight: 600;
-  text-decoration: underline;
-}
-
-.productos:hover {
-  font-size: 300%;
-}
-
-body main {
-  list-style-type: none;
-  background-color: black;
-}
-body main .grid-main {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-areas: "bodega  ficha" "bodega  ficha";
-  column-gap: 2px;
-}
-
-/* BODEGAS */
-.bodegas {
-  box-sizing: content-box;
-  border: solid 1px;
-  background-color: rgb(248, 166, 166);
-  padding: 20px;
-}
-
-body main div h2 {
-  font-family: "Jost", sans-serif;
-  text-decoration: underline;
-}
-
-.lista-bodegas {
-  padding: 1rem;
-  display: grid;
-  grid-area: "bodega";
-}
-
-.nombre-bod {
-  font-family: "Lato", sans-serif;
-  margin: 5px;
-}
-
-.fichas-bodegas {
-  box-sizing: content-box;
-  border: solid 1px;
-  background-color: rgb(248, 166, 166);
-  padding: 20px;
-}
-
-/* FICHAS TECNICAS */
-.titulo-fichas {
-  display: grid;
-  grid-area: "fichas";
-  padding-bottom: 10px;
-}
-
-.lista-fichas {
-  list-style-type: none;
-}
-
-.fichas-tecnicas {
-  padding-top: 10px;
-  padding-bottom: 15px;
-  display: grid;
-  grid-area: "fichas";
-  font-family: "Lato", sans-serif;
-  font-size: 20px;
-  color: black;
-  text-decoration: none;
+a:hover {
+  transform: scale(1.1);
 }
 
 /* PRODUCTOS */
@@ -191,6 +115,43 @@ main ol {
   width: 300px;
 }
 
+.link-serv {
+  text-decoration: none;
+}
+
+.scale-up-hor-left {
+  -webkit-animation: scale-up-hor-left 0.4s;
+  animation: scale-up-hor-left 0.4s;
+}
+
+@-webkit-keyframes scale-up-hor-left {
+  0% {
+    -webkit-transform: scaleX(0.4);
+    transform: scaleX(0.4);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+}
+@keyframes scale-up-hor-left {
+  0% {
+    -webkit-transform: scaleX(0.4);
+    transform: scaleX(0.4);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+  100% {
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+  }
+}
 /* SUCURSALES*/
 .sucursales {
   display: flex;
@@ -215,7 +176,7 @@ main ol {
 
 /* CONTACTO */
 .fondo-contacto {
-  background-color: rgb(233, 73, 73);
+  background-color: #f8a6a6;
 }
 
 .logo-contacto {
@@ -264,22 +225,26 @@ main ol {
   overflow: hidden;
 }
 
-
-footer { background-color: red;
+footer {
+  background-color: red;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-around;
-  align-items:center;
-  padding: 16px; }
+  align-items: center;
+  padding: 16px;
+}
 
 .logo-footer {
- height: 20px;
- width: 20px;}
+  height: 20px;
+  width: 20px;
+}
 
-.red-footer { font-family: 'Lato', sans-serif;
-            font-size: 15px;
-            color: black;}
+.red-footer {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: black;
+}
 
 @media screen and (max-width: 844px) {
   .grid-main {
@@ -295,3 +260,5 @@ footer { background-color: red;
     justify-content: center;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
