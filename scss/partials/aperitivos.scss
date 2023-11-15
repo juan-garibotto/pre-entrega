@@ -1,0 +1,27 @@
+.container-aperitivo {display: flex;
+                      flex-direction: row;
+                      flex-wrap: wrap;
+                      justify-content: center;
+                      align-items: center;
+                      gap: 25px;
+                      padding: 3px;
+                      margin: 5px;
+                      margin-top: 10px;
+                      margin-bottom: 25px; }
+
+.titulo-aper {text-align: center;
+              font-weight: bold;
+              text-decoration: underline;
+              margin: 4px;
+              margin-bottom: 10px;}
+
+.img-aperitivo {align-items: center;}
+
+.img-campari {width: fit-content;}
+
+.img-aperitivo:hover {width: 130%;}
+
+.descripcion-aperitivo {text-align: center;
+                        font-weight: 600;
+                    
+                        .descripcion-aperitivo:hover {width: 130%;}}
