@@ -17,7 +17,17 @@ a:active {box-sizing: border-box;
 
 a:hover {transform: scale(1.1);}
 
+.envios { box-sizing: border-box;
+          background-color: black;
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          justify-content: space-around;
+          align-items: center;}
 
+.texto-envios { font-size: 20px;
+                color: whitesmoke;
+                }          
 
 
 

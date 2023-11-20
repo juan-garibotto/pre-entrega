@@ -1,4 +1,4 @@
-.container-aperitivo {
+.container-productos {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -11,7 +11,7 @@
   margin-bottom: 25px;
 }
 
-.titulo-aper {
+.titulo-productos {
   text-align: center;
   font-weight: bold;
   text-decoration: underline;
@@ -19,7 +19,7 @@
   margin-bottom: 10px;
 }
 
-.img-aperitivo {
+.img-productos {
   align-items: center;
 }
 
@@ -27,16 +27,16 @@
   width: fit-content;
 }
 
-.img-aperitivo:hover {
+.img-productos:hover {
   width: 130%;
 }
 
-.descripcion-aperitivo {
+.descripcion-productos {
   text-align: center;
   font-weight: 600;
 }
-.descripcion-aperitivo .descripcion-aperitivo:hover {
+.descripcion-productos .descripcion-productos:hover {
   width: 130%;
 }
 
-/*# sourceMappingURL=aperitivos.css.map */
+/*# sourceMappingURL=lista-productos.css.map */

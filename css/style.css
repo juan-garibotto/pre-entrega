@@ -32,6 +32,21 @@ a:hover {
   transform: scale(1.1);
 }
 
+.envios {
+  box-sizing: border-box;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.texto-envios {
+  font-size: 20px;
+  color: whitesmoke;
+}
+
 /* PRODUCTOS */
 .product {
   background: linear-gradient(to bottom, rgb(245, 109, 109), white);
@@ -226,7 +241,7 @@ main ol {
   overflow: hidden;
 }
 
-.container-aperitivo {
+.container-productos {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -239,7 +254,7 @@ main ol {
   margin-bottom: 25px;
 }
 
-.titulo-aper {
+.titulo-productos {
   text-align: center;
   font-weight: bold;
   text-decoration: underline;
@@ -247,7 +262,7 @@ main ol {
   margin-bottom: 10px;
 }
 
-.img-aperitivo {
+.img-productos {
   align-items: center;
 }
 
@@ -255,15 +270,15 @@ main ol {
   width: fit-content;
 }
 
-.img-aperitivo:hover {
+.img-productos:hover {
   width: 130%;
 }
 
-.descripcion-aperitivo {
+.descripcion-productos {
   text-align: center;
   font-weight: 600;
 }
-.descripcion-aperitivo .descripcion-aperitivo:hover {
+.descripcion-productos .descripcion-productos:hover {
   width: 130%;
 }
 
@@ -272,9 +287,9 @@ footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  padding: 16px;
+  padding: 5px;
 }
 
 .logo-footer {

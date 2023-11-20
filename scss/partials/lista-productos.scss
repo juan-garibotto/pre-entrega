@@ -1,4 +1,4 @@
-.container-aperitivo {display: flex;
+.container-productos {display: flex;
                       flex-direction: row;
                       flex-wrap: wrap;
                       justify-content: center;
@@ -9,19 +9,19 @@
                       margin-top: 10px;
                       margin-bottom: 25px; }
 
-.titulo-aper {text-align: center;
+.titulo-productos {text-align: center;
               font-weight: bold;
               text-decoration: underline;
               margin: 4px;
               margin-bottom: 10px;}
 
-.img-aperitivo {align-items: center;}
+.img-productos {align-items: center;}
 
 .img-campari {width: fit-content;}
 
-.img-aperitivo:hover {width: 130%;}
+.img-productos:hover {width: 130%;}
 
-.descripcion-aperitivo {text-align: center;
+.descripcion-productos {text-align: center;
                         font-weight: 600;
                     
-                        .descripcion-aperitivo:hover {width: 130%;}}
+                        .descripcion-productos:hover {width: 130%;}}
