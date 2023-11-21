@@ -43,6 +43,7 @@ a:hover {
 }
 
 .texto-envios {
+  font-family: "Lato", sans-serif;
   font-size: 20px;
   color: whitesmoke;
 }
@@ -112,6 +113,7 @@ main ol {
   text-decoration: none;
   color: black;
   font-size: 40px;
+  font-family: "Lato", sans-serif;
 }
 
 /* SERVICIOS */
@@ -130,8 +132,14 @@ main ol {
   width: 300px;
 }
 
+.servicios-text {
+  font-family: "Lato", sans-serif;
+}
+
 .link-serv {
-  text-decoration: none;
+  text-decoration: underline;
+  font-family: "Lato", sans-serif;
+  color: black;
 }
 
 .scale-up-hor-left {
@@ -275,6 +283,7 @@ main ol {
 }
 
 .descripcion-productos {
+  font-family: "Lato", sans-serif;
   text-align: center;
   font-weight: 600;
 }

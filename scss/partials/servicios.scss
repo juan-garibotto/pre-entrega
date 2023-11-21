@@ -15,7 +15,11 @@
     width: 300px;
 }
 
-.link-serv {text-decoration: none;}
+.servicios-text {font-family: 'Lato', sans-serif;}
+
+.link-serv {text-decoration: underline;
+        font-family: 'Lato', sans-serif;
+         color: black;}
 
 .scale-up-hor-left {
 	-webkit-animation: scale-up-hor-left 0.4s ;

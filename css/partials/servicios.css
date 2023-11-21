@@ -14,8 +14,14 @@
   width: 300px;
 }
 
+.servicios-text {
+  font-family: "Lato", sans-serif;
+}
+
 .link-serv {
-  text-decoration: none;
+  text-decoration: underline;
+  font-family: "Lato", sans-serif;
+  color: black;
 }
 
 .scale-up-hor-left {
